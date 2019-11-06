@@ -1,0 +1,39 @@
+body{
+    width:80%;
+    margin-left:700px;
+	margin-right:auto;
+	background-image: url(images/30%.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+td{
+	height: 30px;
+	width: 30px;
+}
+
+.button{
+	height:45px;
+	width: 100px;
+}
+
+#crossword{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	/*border: 1px solid black;*/
+}
+
+.inputBox{
+    width: 40px;
+    height:40px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#hintsTable{
+	width: 480px;
+	float: left;
+	clear: left;
+}
