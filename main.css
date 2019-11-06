@@ -1,0 +1,43 @@
+#container{
+  width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 300px;
+}
+
+.center {
+    margin: auto;
+    width: 30%;
+    margin-top: 300px;
+  }
+
+.column{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.column:first-of-type{
+    margin-right: 30vw;
+    color: cornflowerblue;
+}
+
+.column-element{
+    flex-basis: 20vh;
+    outline: 1.5px solid black;
+    padding: 5px;
+}
+
+body {
+    background-image: url("Fondo.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-size: 1.5rem;
+}
+
+@import url('https://www.fontify.me/wf/596ab250913525e8c97029f579bca02b');
+body{
+    font-family: font51803;
+}
+

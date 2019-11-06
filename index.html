@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>
+    Column Matching
+  </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Match columns</title>
+</head>
+<body>
+    <div id="container" class="center">
+        <column
+            v-bind:things='questions'
+            @clicked='clickedEvent'
+            id='column-one'
+        ></column>
+        <column
+            v-bind:things='answers'
+            @clicked='clickedEvent'
+            id='column-two'
+        ></column>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
