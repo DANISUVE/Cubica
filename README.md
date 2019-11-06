@@ -1,2 +1,0 @@
-# Cubica
-Equipo de DIU
