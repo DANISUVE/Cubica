@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cubica - Cucigrama</title>
+	<meta charset="utf-8"/>
+    <link rel="stylesheet" href="main.css">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body onload="showCrossword()">
+	<div id="leftBox">
+		<table id="crossword">
+			<!--Here is were the crossword is going to be-->
+		</table>
+	</div>
+	<div id="rightBox">
+		<table>
+			<td><input class="button"  type="submit" value="Reiniciar" onclick="clearCrossword()"></td>
+			<td><input class="button"  type="submit" value="Calificar" onclick="check()"></td>
+		</table>
+	</div>
+	<table id="hintsTable">
+		<tr>
+			<td><strong>Horizontal:</strong></td><td><strong>Vertical:</strong></td>
+		</tr>
+		<tr>
+			<td>3. Desaparecido</td><td>1. Verde</td>
+		</tr>
+		<tr>
+			<td>5. Vocal</td><td>2. Hermanos</td>
+		</tr>
+		<tr>
+			<td>6. Jabalí</td><td>4. Cena</td>
+	</table>
+</body>
+</html>
