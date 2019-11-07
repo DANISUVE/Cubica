@@ -3,33 +3,43 @@
 <head>
 	<title>Cubica - Cucigrama</title>
 	<meta charset="utf-8"/>
-    <link rel="stylesheet" href="main.css">
-	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" href="../main.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet"> 
+	<script type="text/javascript" src="../js/colors-hard.js"></script>
 </head>
 <body onload="showCrossword()">
+	<h1>Crossword Puzzle</h1>
 	<div id="leftBox">
 		<table id="crossword">
 			<!--Here is were the crossword is going to be-->
 		</table>
-	</div>
-	<div id="rightBox">
+		</br>
 		<table>
 			<td><input class="button"  type="submit" value="Reiniciar" onclick="clearCrossword()"></td>
 			<td><input class="button"  type="submit" value="Calificar" onclick="check()"></td>
 		</table>
 	</div>
+	</br>
+	</br>
 	<table id="hintsTable">
 		<tr>
 			<td><strong>Horizontal:</strong></td><td><strong>Vertical:</strong></td>
 		</tr>
 		<tr>
-			<td>3. Desaparecido</td><td>1. Verde</td>
+			<td>2. Rojo</td><td>1. Naranja</td>
 		</tr>
 		<tr>
-			<td>5. Vocal</td><td>2. Hermanos</td>
+			<td>4. Cafe</td><td>3. Morado</td>
 		</tr>
 		<tr>
-			<td>6. Jabalí</td><td>4. Cena</td>
+			<td>6. Gris</td><td>5. Verde</td>
+		</tr>
+		<tr>
+			<td>8. Amarillo</td><td>7. Blanco</td>
+		</tr>
+		<tr>
+			<td></td><td>9. Negro</td>
+		</tr>
 	</table>
 </body>
 </html>

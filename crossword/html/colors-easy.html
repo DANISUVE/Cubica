@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cubica - Cucigrama</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="../main.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet"> 
+	<script type="text/javascript" src="../js/colors-easy.js"></script>
+</head>
+<body onload="showCrossword()">
+	<h1>Crossword Puzzle</h1>
+	<div id="leftBox">
+		<table id="crossword">
+			<!--Here is were the crossword is going to be-->
+		</table>
+		</br>
+		<table>
+			<td><input class="button"  type="submit" value="Reiniciar" onclick="clearCrossword()"></td>
+			<td><input class="button"  type="submit" value="Calificar" onclick="check()"></td>
+		</table>
+	</div>
+	</br>
+	</br>
+	<table id="hintsTable">
+		<tr>
+			<td><strong>Horizontal:</strong></td><td><strong>Vertical:</strong></td>
+		</tr>
+		<tr>
+			<td>1. Amarillo</td><td>2. Naranja</td>
+		</tr>
+		<tr>
+			<td>3. Verde</td><td>4. Rojo</td>
+		</tr>
+		<tr>
+			<td></td><td>5. Gris</td>
+	</table>
+</body>
+</html>

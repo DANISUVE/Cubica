@@ -1,10 +1,16 @@
 body{
-    width:80%;
-    margin-left:700px;
-	margin-right:auto;
+	width:25%;
+	margin: 0 auto;
+    display:block;
 	background-image: url(images/30%.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+h1{
+	font-family: 'Indie Flower', cursive;
+	font-size: 3.5em;
+	text-align: center;
 }
 
 td{
@@ -15,6 +21,8 @@ td{
 .button{
 	height:45px;
 	width: 100px;
+	position:relative;
+	left: 120px;
 }
 
 #crossword{
@@ -36,4 +44,6 @@ td{
 	width: 480px;
 	float: left;
 	clear: left;
+	position: relative;
+	left: 50px;
 }
